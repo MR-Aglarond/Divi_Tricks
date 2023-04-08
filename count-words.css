@@ -1,0 +1,35 @@
+/* Styling für die Ausgabebox des Wörterzählers (Text links, Zahlen rechts)  */
+
+#count_words_form textarea {
+	width: 100%;
+    height: auto;
+    min-height: 275px;
+    max-height: 500px;
+	border-radius: 5px;
+}
+
+#count_words_result {
+    text-align: left;
+    width: 100%;
+}
+
+#count_words_result td:first-child {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#buttonbox .et_pb_button_0{
+	background-color: #FCD21D !important;
+  	color: #000 !important;
+	display: block !important;
+	font-size: 14px !important;
+	text-align: center !important;
+	min-width: 180px !important;
+	border-radius: 5px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+#buttonbox .et_pb_button{
+	width: 100%;
+}
